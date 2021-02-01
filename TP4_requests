@@ -32,7 +32,7 @@ Select Distinct ?s where {
 }
   
 
-Query Plan : 
+Query Plan Obtained : 
 
 com.bigdata.bop.rdf.join.ChunkedMaterializationOp[11](ProjectionOp[10])[ ChunkedMaterializationOp.vars=[s], IPredicate.relationName=[lubm1.lex], IPredicate.timestamp=1612220720796, ChunkedMaterializationOp.materializeAll=true, PipelineOp.sharedState=true, BOp.bopId=11, BOp.namespace=lubm1, QueryEngine.queryId=33f32138-d52d-4ede-b296-811baa9f5a17, QueryEngine.chunkHandler=com.bigdata.bop.engine.ManagedHeapStandloneChunkHandler@14c12db7]
   com.bigdata.bop.solutions.ProjectionOp[10](JVMDistinctBindingSetsOp[9])[ BOp.bopId=10, BOp.evaluationContext=CONTROLLER, PipelineOp.sharedState=true, JoinAnnotations.select=[s]]
